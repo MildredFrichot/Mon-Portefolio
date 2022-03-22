@@ -1,7 +1,13 @@
 
 @media only screen and (max-width:500px){
   
-  
+  header {
+      height: 4.5rem;
+  }
+  .logo {
+      height: 3.5rem;
+      width: 3.5rem;
+  }
     .header nav ul {
         display: flex;
         flex-direction: column;
@@ -18,12 +24,33 @@
         margin-top: 1em;
        
       }
-
-
-
-
-
-
-
-
+    .image_fond {
+        background: url("../img/ordimedia.PNG") center center/cover;
+        background-repeat: no-repeat;
 }
+.vp-content {
+    max-width: 35rem;
+    margin-top: 5rem;
+    max-width: 30rem;
+  }
+
+  #titre {
+      font-size: 3rem;
+      max-width: 20rem;
+      padding-top: 0rem;
+  }
+
+  .btn {
+      display: flex;
+      height: 2rem;
+      width: 11rem;
+      text-align: center;
+      align-items: center;
+      font-size: 0.7rem;
+      margin-top: 15px;
+  }
+
+ .separator {
+     margin-top: 0rem;
+     margin-bottom: 1rem;
+ }
